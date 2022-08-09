@@ -1,0 +1,29 @@
+body{
+    background-image: url(../images/fons.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 0, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 200px;
+    border: 3px solid rgb(255, 0, 43);
+}
+p{
+  font-size: 30px;  
+  font-weight: 700;
+  line-height: 15px;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: beige;
+}

@@ -8,13 +8,40 @@ ol ul ul li{
 }  */
 body{
     text-align: center;
+    margin: 0 auto;
 }
-td{
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+table, th, td ,tr{
+    border: 1px solid rgb(14, 14, 14);
+}
+caption{
+    margin-top: 15px;
+}
+thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
     padding: 20px;
-}
-table, th, td{
-    border: 3px solid #ccc;
-}
-table tr td colspan{
+  }
+
+/* table tr td colspan{
     background-color: red;
-}
+} */ */

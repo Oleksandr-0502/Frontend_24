@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(196, 194, 194);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url(../images/hola-1659008121298-4383.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+
+img {
+    width: 250px;
+    margin: 10px 0 0 0;
+    border: 4px solid rgb(247, 151, 8);
+    border-radius: 50%;
+    padding: 1px;
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(253, 242, 242);
+    margin: 25px 0;
+}
+
+h2 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+li {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    display: inline;
+    padding: 0 20px;
+
+}
+
+a:hover {
+    color: rgb(247, 151, 8);
+    font-size: 20px;
+}
+
+a:active {
+    color: rgb(255, 238, 0);
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(253, 242, 242);
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+    color: black;
+}
+
+@media(max-width:500px) {
+    img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+}
