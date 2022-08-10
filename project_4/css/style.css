@@ -1,0 +1,107 @@
+div {
+    height: 200px;
+    margin: 40px 0 0 0;
+    background-size: cover;
+    border-radius: 12px;
+    position: relative;
+
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #232323;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: #aaa;
+    margin: 60px 0 0 0;
+}
+
+h2 {
+    font-size: ;
+    color: #bbb;
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+}
+
+small {
+    opacity: 0;
+}
+
+.first {
+    background-image: url("../images/firstcourse.jpg");
+
+}
+
+.second {
+    background-image: url("../images/secondcourse.jpg");
+}
+
+.dessert {
+    background-image: url("../images/dessertcourse.jpg");
+}
+
+.price {
+    float: right;
+}
+
+.show-description p {
+    height: 120px;
+
+}
+
+.show-description small {
+    opacity: 1;
+
+}
+
+@media(max-width:500px) {
+    div {
+        margin: 20px 12px 0 12px;
+    }
+
+    p {
+        font-size: 20px;
+        height: ;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 20px 0 30px 0;
+
+    }
+
+    small {
+        font-size: 15px;
+    }
+}
