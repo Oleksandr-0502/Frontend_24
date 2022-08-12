@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="#" method="get">
+        <div class="radio">
+            <fieldset>
+                <legend>Реєстрація на тестування по AgLeader</legend>
+                <div class="name" tabindex="">
+                    <p>Введіть свої дані:</p>
+                    <input name="user" required placeholder="Введіть cвоє ім'я"><br>
+                    <input name="name" required placeholder="Введіть своє прізвище"><br>
+                    <input type="email" name="email" required placeholder="Введіть електрону адресу"><br>
+                </div>
+            </fieldset>
+        </div>
+        <div class="radio">
+            <h3>1. Монітор Соmpass працює з ?<span>*</span></h3>
+            <input type="radio" name="PC" id="">Гідравлічним автопілотом <br>
+            <input type="radio" name="PC" id="">Електромеханічним автопілотом <br>
+            <input type="radio" name="PC" id="">Тільки, як візуальна навігація<br>
+        </div>
+        <div class="radio">
+
+            <h3>2. Яка антена йде в комплекті з монітором Сompass?<span>*</span></h3>
+            <input type="radio" name="Сompass" id="">GPS 6000<br>
+            <input type="radio" name="Сompass" id="">GPS 7500<br>
+
+        </div>
+        <div class="radio">
+            <h3>3. Скільки гектарів максимально дається на одне поле, або на( одне событие)?<span>*</span></h3>
+            <input type="radio" name="ga" id="">на одне поле дається 100 га;<br>
+            <input type="radio" name="ga" id="">на одне поле дається 200 га;<br>
+            <input type="radio" name="ga" id="">на одне поле дається 500 га;<br>
+
+        </div>
+        <div class="radio">
+            <h3>4. Який монітор є розблокований із заводу під ISOBUS та автоматичне відключення секцій?<span>*</span>
+            </h3>
+            <input type="radio" name="ISOBUS " id="">InCommand 800;<br>
+            <input type="radio" name="ISOBUS " id="">InCommand 1200;<br>
+            <input type="radio" name="ISOBUS " id="">Усі відповіді правильні;<br>
+        </div>
+        <div class="radio">
+            <h3>5. Чи має монітор можливість InCommand 800 опцію поліекран (можливість ділення екрана на 2
+                частини)?<span>*</span>
+            </h3>
+            <input type="radio" name="pol" id="">ТАК;<br>
+            <input type="radio" name="pol" id="">НІ;<br>
+        </div>
+        <div class="radio">
+            <h3>6. Чи потрібно знімати руль при встановленні Електричного автопілоту Steady Steer ?<span>*</span></h3>
+            <input type="radio" name="SteadySteer" id="">Так;<br>
+            <input type="radio" name="SteadySteer" id="">Ні;<br>
+        </div>
+        <div class="radio">
+            <h3>7. Яку осьова компенсація нерівностей рельєфу має контролер Steer Command Z2 ?<span>*</span> </h3>
+            <input type="radio" name="Z2" id="">9 -осьова компенсація нерівностей рельєфу (кількість датчиків 9);<br>
+            <input type="radio" name="Z2" id="">6- осьова компенсація нерівностей рельєфу (кількість датчиків 6);<br>
+        </div>
+        <div class="radio">
+            <h3>8. Яку точність має платний сигнал Terra Star C- Pro ?<span>*</span></h3>
+            <input type="radio" name="C-Pro" id="">3-6см;<br>
+            <input type="radio" name="C-Pro" id="">7-10см;<br>
+            <input type="radio" name="C-Pro" id="">10-15см;<br>
+        </div>
+        <div class="radio">
+            <h3>9. Яка антена підтримує корегуючі сигнали: Terra Star -L, Terra Star- C Pro, RTK ?<span>*</span></h3>
+            <input type="radio" name="RTK" id="">GPS 6000;<br>
+            <input type="radio" name="RTK" id="">GPS 6500;<br>
+            <input type="radio" name="RTK" id="">GPS 7500;<br>
+        </div>
+        <div class="radio">
+            <h3>10. З яким монітором працює система електричного приводу сівалок Sure Drive?<span>*</span></h3>
+            <input type="radio" name="Sure Drive" id="">InCommand 800;<br>
+            <input type="radio" name="Sure Drive" id="">InCommand 1200;<br>
+            <input type="radio" name="Sure Drive" id="">Compass;<br>
+        </div>
+        <div class="radio">
+            <h3>11. Чи підтримує система електричного приводу сівалок Sure Drive диференційний посів (карти завдань
+                ?)<span>*</span>
+            </h3>
+            <input type="radio" name="row" id="">Так;<br>
+            <input type="radio" name="row" id="">Ні;<br>
+        </div>
+        <div class="but">
+            <button type="submit" class="submit" name="submitbtn" value="subm">Отправить</button>
+            <div class="reset-form">
+                <button type="reset" class="reset" name="submitbtn" value="subm">Очистити</button>
+            </div>
+    </form>
+
+</body>
+
+</html>

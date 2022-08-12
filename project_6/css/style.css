@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: rgb(212, 211, 211);
+}
+
+p {
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+.radio {
+    margin: 17px;
+    padding: 5px 15px 15px 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #fff;
+    line-height: 35px;
+}
+.radio:hover{
+    background-color:grey;
+}
+
+fieldset {
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+}
+
+span {
+    font-size: 18px;
+    color: red;
+}
+
+input {
+    vertical-align: center;
+    margin-right: 15px;
+}
+
+/* input [radio] {
+    font-family: 'Roboto Condensed', sans-serif;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+    transition: 0.2s all linear;
+    outline: none; */
+.name{
+text-align:left;
+padding-bottom: 10px;
+}
+
+.reset-form button {
+	width: 90px;
+	height: 28px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #666;
+	border-radius: 5px;
+	box-shadow: inset 0 2px 2px #ccc;
+	cursor: pointer;
+}
+.reset-form button:hover {
+	box-shadow: 0 0 2px #ccc;
+}
+.reset-form button:active {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+.but{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
