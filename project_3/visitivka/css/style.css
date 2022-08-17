@@ -4,7 +4,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    color: rgb(255, 0, 43);
+    color: rgb(85, 87, 83);
     font-family: Arial, Helvetica, sans-serif;
 }
 img{
@@ -19,9 +19,13 @@ p{
   line-height: 15px;
 }
 input{
-    border: 0;
+    border-style: none;
     padding: 10px;
     font-size: 20px;
+}
+input:focus{
+    background-color: rgba(185, 185, 185, 0.5);
+
 }
 input[type="submit"]{
     background-color: black;

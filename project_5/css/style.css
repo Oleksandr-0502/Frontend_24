@@ -1,15 +1,19 @@
-* {
-    box-sizing: border-box;
+/* * {
+    /* box-sizing: border-box;
+} */ */
+body{
+    padding: 20px;
+    margin: 0;
 }
 
 .box {
     height: 400px;
     width: 400px;
     background-color: black;
-    padding: 20px;
     position: relative;
-    border: 5px solid black;
+    border: 3px solid black;
     margin: 0 auto;
+    padding: 0 auto;
 
 }
 
