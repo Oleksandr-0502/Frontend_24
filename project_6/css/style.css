@@ -20,18 +20,6 @@ h3 {
     margin: 5px;
 }
 
-.radio {
-    margin: 17px;
-    padding: 5px 15px 15px 30px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: #fff;
-    line-height: 35px;
-}
-.radio:hover{
-    background-color:rgb(206, 202, 202);
-}
-
 fieldset {
     margin: 0 auto;
     border: 2px solid black;
@@ -52,19 +40,18 @@ input {
     vertical-align: center;
     margin-right: 15px;
 }
+.radio {
+    margin: 17px;
+    padding: 5px 15px 15px 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #fff;
+    line-height: 35px;
+}
+.radio:hover{
+    background-color:rgb(243, 237, 237);
+}
 
-/* input [radio] {
-    font-family: 'Roboto Condensed', sans-serif;
-    appearance: none;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    border: 2px solid black;
-    margin-right: 10px;
-    position: relative;
-    top: 4px;
-    transition: 0.2s all linear;
-    outline: none; */
 .name{
 text-align:left;
 padding-bottom: 10px;
@@ -79,17 +66,32 @@ padding-bottom: 10px;
 	border-radius: 5px;
 	box-shadow: inset 0 2px 2px #ccc;
 	cursor: pointer;
+    position: relative;
 }
+button{
+width: 100px;
+height: 35px;
+border: 1px solid #ccc;
+background: blue;
+color: black;
+border-radius: 5px;
+box-shadow: inset 0 2px 2px #ccc;
+cursor: pointer;
+}
+button:hover {
+	box-shadow: 0 2px 2px rgb(6, 30, 245);
+    letter-spacing: 2px;
+    transition:all 1s ease-in-out 0.2s;
+    background-color: rgb(248, 224, 11);
+}
+
 .reset-form button:hover {
-	box-shadow: 0 0 2px #ccc;
-}
-.reset-form button:active {
-	margin-top: 1px;
-	margin-bottom: -1px;
-	zoom: 1;
+	box-shadow: 0 0 2px rgb(6, 30, 245);
 }
 .but{
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    position: relative;
+    
 }
