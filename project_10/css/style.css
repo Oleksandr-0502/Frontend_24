@@ -48,18 +48,17 @@ li {
     font-size: 50px;
     color: #2aacc8;
     line-height: 24px;
-    padding-top: 11px;
-    padding-bottom: 13px;
-}
 
-.header__drop-down > a:hover{
-    color:#2aacc8;
-    border-top:  5px solid #2aacc8;
-    background-color: #fff;
-   
+}
+.header__drop-down.drop-down{
+    margin-left: 39px;
 }
 .header__drop-down > a{
     position: relative;
+    border-top:5px solid transparent;
+    padding-right: 26px;
+    padding-left: 11px ;
+    transition: all 1.5s;
 }
 .header__drop-down > a::after{
  content: "";
@@ -67,23 +66,51 @@ li {
  width: 10px;
  height: 6px;
  position: absolute;
- right: -16px;
- top: 4px;
+ right: 8px;
+ top: 15px;
 }
-.header__down-port > a{
+.header__drop-down > a:hover{
+    color:#2aacc8;
+    border-top:5px solid #2aacc8;
+    background-color: #fff;
+   
+}
+.header__drop-down{
     position: relative;
 }
+.header__down-port{
+    position: relative;
+}
+
+
+.header__down-port > a{
+position: relative;
+border-top: 5px solid transparent;
+padding-right: 26px;
+padding-left: 11px;
+transition: all 1.5s;
+}
+
 .header__down-port > a::after{
  content: "";
  background-image: url("../images/arrow-down-icon.svg");
  width: 10px;
  height: 6px;
  position: absolute;
- right: -16px;
- top: 4px;
+ right: 8px;
+ top: 15px;
 }
+.header__down-port > a:hover{
+    color:#2aacc8;
+    border-top:5px solid #2aacc8;
+    background-color: #fff;
+}
+.header__down-port.down-port{
+    margin-left: 39px;
+}
+
 .drop-down__list{
-    display: none;
+    position: absolute;
 }
 
 .header__logo a span {
@@ -107,5 +134,7 @@ li {
     font-size: 13px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
+    padding-top: 11px;
+    padding-bottom: 13px;
 
 }
