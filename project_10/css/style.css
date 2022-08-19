@@ -77,6 +77,10 @@ a {
 .header__menu {
     margin-right: 20px;
 }
+.header__menu :hover{
+    color:#2aacc8 ;
+
+}
 
 .header__drop-down {
     position: relative;
