@@ -210,6 +210,6 @@ a {
     width: auto;
     height: auto;
 }
-.slick-dots li button:focus{
+.slick-dots li.slick-active button{
     background-color:#fff;
 }
