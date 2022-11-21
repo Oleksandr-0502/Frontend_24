@@ -1,11 +1,13 @@
-html{
+html {
     box-sizing: border-box;
 }
+
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
 }
+
 div {
     height: 200px;
     margin: 40px 0 0 0;
@@ -28,11 +30,10 @@ h1 {
     font-size: 75px;
     text-align: center;
     color: #aaa;
-    margin: 60px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 h2 {
-    font-size: ;
     color: #bbb;
     text-align: center;
     margin: 0 0 70px 0;
@@ -44,8 +45,8 @@ p {
     background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
     background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
     background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
-    padding: 10px;
-    line-height: 28px;
+    padding: 5px;
+    line-height: 25px;
     text-align: justify;
     position: absolute;
     bottom: 0;
@@ -77,7 +78,7 @@ small {
 }
 
 .show-description p {
-    height: 120px;
+    height: 100px;
 
 }
 

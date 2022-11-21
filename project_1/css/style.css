@@ -1,19 +1,25 @@
-body{
+body {
     background-color: black;
-    text-align:center;
+    text-align: center;
 }
-p{
+
+p {
     color: darkgrey;
 }
-span{
+
+span {
     color: green;
 }
-img{
-    border-radius: 10%;
+
+img {
+    border-radius: 15%;
     border: 2px solid white;
 }
-h1,h2,h4{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+h1,
+h2,
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     font-size: 22px;
 }

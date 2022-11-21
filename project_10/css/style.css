@@ -70,7 +70,7 @@ a {
     padding-bottom: 13px;
 }
 
-.header__menu li+li {
+.header__menu li + li {
     margin-left: 50px;
 }
 
